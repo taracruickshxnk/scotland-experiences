@@ -105,6 +105,8 @@
     bottom: 10px;
     background-color: #f7f7f7;
     background-image: url('open.logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border: solid 5px #ffffff;
     border-radius: 50%;
   }
