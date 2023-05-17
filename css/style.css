@@ -118,3 +118,39 @@ body {
 /* SEARCH PAGE STYLES */
 
 
+/* Home section */
+
+ .home-hero{
+   display: flex;
+   border-radius: 25px;
+   background-image: url("../img/home-hero.png");
+   background-position: left top;
+   background-size: cover;
+   padding: 20px;
+   width: 1200px;
+   height: 300px;
+   margin: 4rem;
+   color: black;
+}
+
+.hero-container {
+	display: flex;
+    max-width: auto;
+    margin: auto;
+    background-color: #ffffff;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+	justify-content: center;
+	align-items: center;	
+}
+
+.hero-title{
+	opacity: 0.4;
+}
+
+.hero-title h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	color: black;
+}
