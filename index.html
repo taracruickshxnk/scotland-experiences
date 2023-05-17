@@ -7,19 +7,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
-        <img src="../scottish-experiences/img/logo.png" alt="Scotland Experinces Logo">
-
         <!--Hamburger Menu-->
-        <div class="mobile-container">
-
         <div class="topnav">
-            <a href="#home" class="active">Logo</a>
+            <a href="#home" class="active"><img src="../scottish-experiences/img/logo.png" alt="Scotland Experinces Logo"></a>
             <div id="myLinks">
-              <a href="#home">Home</a>
               <a href="#search">Search</a>
               <a href="#favourites">Favourites</a>
               <a href="#account">Account</a>
@@ -28,15 +24,19 @@
               <i class="fa fa-bars"></i>
             </a>
         </div>
-          
-            <div style="padding-left:16px"></div>
-      </div>
 
     </header>
 
     <main>
       <!--LOGIN PAGE-->
-      <section id="login"></section>
+      <section id="login">
+        <div class="container">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+      </section>
 
       <!--HOME PAGE-->
       <section id="home">
@@ -85,7 +85,51 @@
 		</section>
 
       <!--SEARCH PAGE-->
-      <section id="search"></section>
+      <section id="search" style="display: block;">
+
+        <!--Search Bar-->
+        <img src="../scottish-experiences/img/magnifyGlass.png" alt="A PNG of Magnify Glass">
+        <input class="search" type="text" placeholder="Search...">
+
+        <h3 class="tag-title">Not sure? Check these out!</h3>
+
+        <!--Card 1-->
+        <div class="card">
+          <div class="card-head">
+            <img src="../scottish-experiences/img/invernessCastle.jpg" alt="Picture of Inverness Castle">
+          </div>
+          <div class="card-body">
+            <h3 class="item-head">Inverness Castle</h3>
+            <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+            <span class="item-info">Castle, Inverness IV2 3EG</span>
+          </div>
+        </div>
+
+        <!--Card 2-->
+        <div class="card">
+          <div class="card-head">
+            <img src="../scottish-experiences/img/balmoralCastle.jpg" alt="Picture of Balmoral Castle">
+          </div>
+          <div class="card-body">
+            <h3 class="item-head">Balmoral Castle</h3>
+            <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+            <span class="item-info">Balmoral Estates, Ballater AB35 5TB</span>
+          </div>
+        </div>
+
+        <!--Card 3-->
+        <div class="card">
+          <div class="card-head">
+            <img src="../scottish-experiences/img/glamisCastle.jpg" alt="Picture of Glamis Castle">
+          </div>
+          <div class="card-body">
+            <h3 class="item-head">Glamis Castle</h3>
+            <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+            <span class="item-info">Forfar DD8 1RJ</span>
+          </div>
+        </div>
+
+      </section>
 
       <!--PRODUCT PAGE-->
       <section id="product"></section>
@@ -102,6 +146,8 @@
       <!--FAVOURITES PAGE-->
       <section id="favourites"></section>
 
+      <!--ACCOUNT PAGE-->
+      <section id="account"></section>
     </main>
 
     <script src="js/script.js"></script>
