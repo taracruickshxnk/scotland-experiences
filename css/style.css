@@ -123,6 +123,29 @@ header {
 
 /* SEARCH PAGE STYLES */
 
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.search {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid #7A26C1 2px;
+}
+
+.item-head {
+  color: #7A26C1;
+}
+
+.card img {
+  border-radius: 2.5%;
+}
+
 
 /* Home section */
 
