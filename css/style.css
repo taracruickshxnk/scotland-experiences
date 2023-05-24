@@ -191,6 +191,38 @@ option {
   border-radius: 10px;
 }
 
+/* BOOKING CONFIRMATION PAGE STYLES */
+
+#bookingConfirm {
+  display: none;
+  position: relative;
+}
+
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  border: solid #7A26C1 2px;
+  border-radius: 10px;
+}
+
+.confirm-icon {
+  margin-bottom: 1rem;
+}
+
+.confirm-title {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.confirm-tag {
+  color: black;
+  margin-bottom: 2rem;
+}
+
 /* Home section */
 
  .home-hero{
