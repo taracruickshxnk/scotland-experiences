@@ -146,6 +146,50 @@ header {
   border-radius: 2.5%;
 }
 
+/* BOOKING PAGE STYLES */
+
+#booking {
+  display: none;
+}
+
+.booking-form-heading {
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.input-container input, select {
+  padding: 1rem;
+  border: solid #7A26C1 2px;
+  border-radius: 10px;
+  color: black;
+}
+
+option {
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  color: black;
+}
+
+.booking-form-submit {
+  width: 100%;
+  border: none;
+  background-color: #7A26C1;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
 
 /* Home section */
 
