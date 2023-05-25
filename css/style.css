@@ -225,6 +225,21 @@ option {
   margin-bottom: 2rem;
 }
 
+/*ACCOUNT PAGE STYLES*/
+
+.account-form-heading {
+  margin-bottom: 1rem;
+}
+
+.account-form-submit {
+  width: 100%;
+  border: none;
+  background-color: #7A26C1;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
 /* Home section */
 
  .home-hero{
