@@ -2,15 +2,17 @@
 /* CSS Document */
 
 * {
-    padding: 0;
-	  margin: 0;
-    font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   max-width: 400px;
   margin: 0 auto;
+  padding-bottom: 700px;
 }
 
 /* HEADER SECTION */
