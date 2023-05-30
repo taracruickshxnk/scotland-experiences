@@ -309,7 +309,6 @@ option {
 	display: flex;
 	width: 400px;
 	flex-direction: column;
-	padding: 5px;
 }
 
 .product-title{
@@ -333,14 +332,12 @@ option {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height:
-	
+	height: 50px;
 }
 
 .backgroundColor{
 	background-color: #7a16a1;
-	padding: 5px;
-	border-radius: 25px;
+	border-radius: 10px;
 	width: 85%;
 	height: 20px;
 }
