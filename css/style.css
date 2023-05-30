@@ -216,7 +216,6 @@ option {
 
 #text-color{
   color: #7A26C1;
-  padding: 5px;
   padding-bottom: 0px;
   font-size: larger;
 }
@@ -231,7 +230,7 @@ option {
   margin-left: 1rem;
   margin-top: 3.75rem;
   padding: 1rem;
-  border-radius: 35px;
+  border-radius: 10px;
 
 }
 
@@ -278,10 +277,12 @@ option {
   align-items: center;
 }
 
+/*
 .align-mp{
   margin: 25px;
   margin-left: 75px;
 }
+*/
 
 .background-img-explore{
   background-image: url(../img/explore.png);
