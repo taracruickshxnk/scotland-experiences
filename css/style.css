@@ -198,7 +198,7 @@ option {
   background-image:url(../img/hero-img.png);
   display: inline;
   width: 400px;
-  height: 400px;
+  height: 250px;
   background-size: cover;
   border-radius: 25px;
   
@@ -208,9 +208,9 @@ option {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.7);
   height: min-content;
-  padding: 5px;
-  border-radius: 25px;
-  margin: 40px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
   
 }
 
@@ -226,10 +226,11 @@ option {
   align-items: center;
   justify-content: center;
   background-color: #7b26c18e;
-  height: 75px;
-  width: 00px;
-  margin-left: 175px;
-  margin-top: 100px;
+  height: 50px;
+  width: 365px;
+  margin-left: 1rem;
+  margin-top: 3.75rem;
+  padding: 1rem;
   border-radius: 35px;
 
 }
@@ -241,7 +242,7 @@ option {
 .background-img-stirling{
   background-image:url(../img/stirling-castle.png) ;
   width: 400px;
-  height: 400px;
+  height: 250px;
   background-size: cover;
   border-radius: 25px;
 
@@ -250,7 +251,7 @@ option {
 .background-img-glamis{
   background-image:url(../img/stirling-castle.png) ;
   width: 400px;
-  height: 400px;
+  height: 250px;
   background-size: cover;
   border-radius: 25px;
 
