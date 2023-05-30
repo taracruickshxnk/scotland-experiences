@@ -302,7 +302,7 @@ option {
 }
 
 .product-padding{
-	padding: 5px
+	padding: 5px;
 }
 
 .product-container{
@@ -313,8 +313,7 @@ option {
 
 .product-title{
 	color: #7a16c1;
-	font-size: 1.5rem;
-	font-weight: 750;
+	
 }
 
 .product-container-align{
@@ -323,23 +322,11 @@ option {
 	flex-direction: row;
 }
 
-.map-marker{
-	width: 15px;
-	height: 15px;
-}
-
 .button-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-}
-
-.backgroundColor{
-	background-color: #7a16a1;
-	border-radius: 10px;
-	width: 85%;
-	height: 20px;
 }
 
 .text-color{
