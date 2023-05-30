@@ -188,6 +188,8 @@ option {
 
 /* HOME PAGE STYLES */
 
+
+/* Hero Section */
 .hero-container{
   display: flex;
   justify-content: center;
@@ -235,58 +237,54 @@ option {
   color: white;
 }
 
+/* Most Popular Section */
+
 .background-img-stirling{
   background-image:url(../img/stirling-castle.png) ;
   width: 400px;
   height: 250px;
   background-size: cover;
-  border-radius: 25px;
-
+  border-radius: 10px;
 }
 
 .background-img-glamis{
-  background-image:url(../img/stirling-castle.png) ;
+  background-image:url(../img/glamis-castle.jpg) ;
   width: 400px;
   height: 250px;
   background-size: cover;
-  border-radius: 25px;
+  border-radius: 10px;
 
 }
 
 .background-color{
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 25px;
-  margin-top: 300px;
-  height: 80px;
-
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-top: 10rem;
+  height: 70px;
+  padding: 1rem;
+  width: 165px;
 }
 
 #text-color-big{
   color: #7A26C1;
-  padding: 5px;
-  padding-bottom: 0px;
-  font-size: 1.5rem;
 }
 
 .container-most-popular{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 1rem;
 }
 
-/*
-.align-mp{
-  margin: 25px;
-  margin-left: 75px;
-}
-*/
+/* Explore Section */
 
 .background-img-explore{
   background-image: url(../img/explore.png);
   border-radius: 25px;
   display: inline;
-  width: 850px;
-  height: 400px;
+  width: 400px;
+  height: 250px;
   background-size: cover;
 }
 
