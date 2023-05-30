@@ -216,8 +216,6 @@ option {
 
 #text-color{
   color: #7A26C1;
-  padding-bottom: 0px;
-  font-size: larger;
 }
 
 .cta{
@@ -228,10 +226,9 @@ option {
   height: 50px;
   width: 365px;
   margin-left: 1rem;
-  margin-top: 3.75rem;
+  margin-top: 4.75rem;
   padding: 1rem;
   border-radius: 10px;
-
 }
 
 #text-color-white{
