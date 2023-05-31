@@ -15,6 +15,38 @@ body {
   padding-bottom: 700px;
   justify-content: center;
 }
+.navbg{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* Hide elements section*/
+#login{
+  display: none;
+}
+#register{
+  display: none;
+}
+#home{
+  display: none;
+}
+#search{
+  display: none;
+}
+#product{
+  display: none;
+}
+#booking{
+  display: none;
+}
+#bookingConfirm{
+  display: none;
+}
+#favourites{
+  display: none;
+}
+#account{
+  display: none;
+}
+
 
 /* HEADER SECTION */
 
@@ -380,10 +412,6 @@ option {
 }
 
 /* HOME PAGE STYLES */
-
-#home{
-  display: none;
-}
 
 
 /* Hero Section */
