@@ -381,6 +381,10 @@ option {
 
 /* HOME PAGE STYLES */
 
+#home{
+  display: none;
+}
+
 
 /* Hero Section */
 .hero-container{
