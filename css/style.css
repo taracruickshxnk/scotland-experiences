@@ -313,13 +313,14 @@ option {
 
 .product-title{
 	color: #7a16c1;
-	
+	display: inline;
 }
 
 .product-container-align{
 	display: flex;
 	width: 400px;
 	flex-direction: row;
+  justify-content: space-between;
 }
 
 .button-container{
@@ -335,4 +336,8 @@ option {
 	justify-content: center;
 	align-items: center;
 	padding-top: 2px;
+}
+
+.fav-button {
+  margin-bottom: 1rem;
 }
