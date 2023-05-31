@@ -8,88 +8,133 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
   <!--HEADER-->
     <header>
-        <!--Hamburger Menu-->
-          <div class="topnav">
-              <a href="#home" class="active"><img src="../scottish-experiences/img/logo.png" alt="Scotland Experinces Logo"></a>
-              <div id="myLinks">
-                <a href="#search">Search</a>
-                <a href="#favourites">Favourites</a>
-                <a href="#account">Account</a>
-              </div>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-          </div>
+      <!--Hamburger Menu-->
+        <div class="topnav">
+            <a href="#home" class="active"><img src="../scotland-experiences/img/logo.png" alt="Scotland Experinces Logo"></a>
+            <div id="myLinks">
+              <a href="#home">Home</a>
+              <a href="#search">Search</a>
+              <a href="#favourites">Favourites</a>
+              <a href="#account">Account</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </header>
 
     <main>
       <!--LOGIN PAGE-->
-      <section id="login">
-        <div class="container">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+      <section id="login" style="display: block;">
+      
+         <!--Page 1:Open page-->
+         <section id="open" class="page active">
+          <div class="openContainer">
+      <div class="loading-bar">
+             <img src="img/open.page.logo.png" alt="App Logo" class="logo"></div>
+        <button class="button-login" onclick="redirectTo('login')">Login</button>
+              <button class="button-home" onclick="redirectTo('home')">Continue as a guest</button>
           </div>
+        </section>
+      
+        <!-- Page 2: Login -->
+        <section id="login" class="page active">
+          <div class="loginContainer">
+          <h1>Log In</h1>
+            <!-- Add your home page content here -->
+              <form action="">
+                  <input id="email" type="text" placeholder="Email">
+                  <input id="password"type="text" placeholder="Password">
+              </form>
+              <button class="button-home" onclick="redirectTo('home')">Log In</button>
+           <p>Don`t have an account yet?<!--<a href="#register" class=""></a>-->
+              <button class="button-register" onclick="redirectTo('register')">Sign up</button></p>
+                  
+          </div>
+        </section>
+      
+        <!-- Page 3: Register -->
+        <section id="register" class="page active">
+          <div class="registerContainer">
+          <div class="hero" id="registerImage">
+            <h1>Sign up</h1>
+            <!-- Add your about page content here -->
+            <form action="">
+              <input id="email" type="text" placeholder="Email">
+              <input id="password"type="text" placeholder="Password">
+          </form>
+          <button class="button-home" onclick="redirectTo('home')">Log In</button>
+          </div>
+        </div>
+      </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
+      
       </section>
 
       <!--HOME PAGE-->
-      <section id="home">
-		  <!--Hero Img-->
-		  	<div class="hero-container">
-				<div class="home-hero">
-					<div class="hero-title">
-						<h2>Scotland Experiences</h2>
-						<h3>Find the Perfect Castle</h3>
-					</div>
-					<div class="hero-Cta">
-						<h2>Search Castles</h2>
-					</div>
-				</div>
-		  </div>
-		  <!--MOST POPULAR-->
-		  <div class="mobile-contaier">
-			  <div>
-				  <h2 class="title">Most Popular</h2>
-				  <div class="split-container">
-					  <div class="split-img">
-						  <img src="" alt="">
-						  <div>
-							  <h2>Stirling Castle</h2>
-							  <h3>Castle Wynd, Stirling FK8 1EJ</h3>
-						  </div>
-					  </div>
-					  <div class="split-img">
-						  <img src="" alt="">
-						  <div>
-							  <h2>Glamis Castle</h2>
-							  <h3>Forfar, DD8 1RJ</h3>
-						  </div>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-		  
-		  <!--EXPLORE-->
-		  <div class="mobile-contianer">
-			  <h2 class="title">Explore</h2>
-			  <div>
-				  <img src="" alt="">
-			  </div>
-		  </div>
-		</section>
+      <section id="home" style="display: block;">
+  
+        <!--Hero section-->
+        <div class="hero-container">
+          <div class="background-img">
+              <div>
+                  <div id="top-right-text">
+                    <h3 class="tag-title">Scotland Experiences</h3>
+                    <p id="text-color">Find the <b>Perfect Castle</b></p>
+                  </div>
+              </div>
+              <div class="cta">
+                  <h3 id="text-color-white">Search Castles</h1>
+              </div>
+          </div>
+      </div>
+      <br>
+      
+      <!--Most popular section-->
+      <h3 class="tag-title">Most Popular</h3><br>
+
+      <div class="container-most-popular">
+        <div class="background-img-stirling">
+            <div class="background-color">
+                <h3 id="text-color-big">Stirling Castle</h1>
+                  <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+                  <span class="item-info">Stirling</span>
+            </div>
+        </div>
+
+        <div class="background-img-glamis">
+            <div class="background-color">
+              <h3 id="text-color-big">Glamis Castle</h1>
+                <div class="item-info"></div>
+                <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+                <span class="item-info">Forfar</span>
+            </div>
+        </div>
+    </div>
+
+      <!--Explore section-->
+      <br>
+      <h3 class="tag-title">Explore</h3><br>
+      <div class="hero-container">
+          <div class="background-img-explore">
+          </div>
+      </div>
+      
+      </section>
 
       <!--SEARCH PAGE-->
       <section id="search" style="display: block;">
 
         <!--Search Bar-->
         <div class="searchBar">
-          <img src="../scottish-experiences/img/magnifyGlass.png" alt="A PNG of Magnify Glass">
+          <img src="../scotland-experiences/img/magnifyGlass.png" alt="A PNG of Magnify Glass">
           <input class="search" type="text" placeholder="Search...">
         </div>
 
@@ -99,12 +144,12 @@
         <!--Card 1-->
         <div class="card">
           <div class="card-head">
-            <img src="../scottish-experiences/img/invernessCastle.jpg" alt="Picture of Inverness Castle">
+            <img src="../scotland-experiences/img/invernessCastle.jpg" alt="Picture of Inverness Castle">
           </div>
           <div class="card-body">
             <h3 class="item-head">Inverness Castle</h3>
             <div class="item-info"></div>
-              <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+              <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
               <span class="item-info">Castle, Inverness IV2 3EG</span>
             </div>
           </div>
@@ -114,12 +159,12 @@
         <!--Card 2-->
         <div class="card">
           <div class="card-head">
-            <img src="../scottish-experiences/img/balmoralCastle.jpg" alt="Picture of Balmoral Castle">
+            <img src="../scotland-experiences/img/balmoralCastle.jpg" alt="Picture of Balmoral Castle">
           </div>
           <div class="card-body">
             <h3 class="item-head">Balmoral Castle</h3>
             <div class="item-info">
-              <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+              <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
               <span class="item-info">Balmoral Estates, Ballater AB35 5TB</span>
             </div>
           </div>
@@ -129,12 +174,12 @@
         <!--Card 3-->
         <div class="card">
           <div class="card-head">
-            <img src="../scottish-experiences/img/glamisCastle.jpg" alt="Picture of Glamis Castle">
+            <img src="../scotland-experiences/img/glamisCastle.jpg" alt="Picture of Glamis Castle">
           </div>
           <div class="card-body">
             <h3 class="item-head">Glamis Castle</h3>
             <div class="item-info">
-              <img src="../scottish-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+              <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
               <span class="item-info">Forfar DD8 1RJ</span>
             </div>
           </div>
@@ -144,10 +189,45 @@
       </section>
 
       <!--PRODUCT PAGE-->
-      <section id="product"></section>
+      <section id="product" style="display: block;">
+      
+        <div class="product-container">
+          <div class="img-container">
+            <img class="img-size" src="../scotland-experiences/img/product-img.png" alt="An image of a castle." >
+          </div>
+          
+              <div class="product-padding">
+                <!-- Castle Postcode -->
+                <div class="product-container-align product-padding">
+                  <div class="item-info">
+                    <!-- Title -->
+                    <h3 class="product-title">Balmoral Castle</h1><br>
+                    <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+                    <span class="item-info">Ballater AB35 5TB</span>
+                  </div>
+
+                <!--Favourite Button -->  
+                    <img class="fav-button" src="../scotland-experiences/img/fav-button.JPG" alt="An image of a heart" style="height: 45px;">
+                </div>
+              </div>
+          </div>
+
+          <!-- Book Now Button -->
+          <button class="booking-form-submit">Book Now</button><br>
+
+          <!--Description -->
+          <div>
+            <div class="text-size product-padding">
+              <h3><b>Description</b></h3>
+              <p>Balmoral Castle is a large estate house in Aberdeenshire, Scotland, and a residence of the British royal family. It is near the village of Crathie, 9 miles west of Ballater and 50 miles west of Aberdeen.</p>
+            </div>
+          </div>
+        </div>
+      
+      </section>
 
       <!--EXPLORE PAGE-->
-      <section id="explore"></section>
+      <section id="explore" style="display: block;"></section>
 
       <!--BOOKING PAGE-->
       <section id="booking" style="display: block;">
@@ -192,13 +272,93 @@
       </section>
 
       <!--BOOKING CONFIRMATION PAGE-->
-      <section id="bookingConfirm"></section>
+      <section id="bookingConfirm" style="display: block;">
+
+        <div class="confirm-container">
+          <img class="confirm-icon" src="../scotland-experiences/img/confirmation.JPG" alt="Confirmation Icon">
+          <h1 class="confirm-title">Booking Confirmed</h1>
+          <p class="confirm-tag">Booking Reference: #CA12345</p>
+        </div>
+
+      </section>
 
       <!--FAVOURITES PAGE-->
-      <section id="favourites"></section>
+      <section id="favourites" style="display: block;">
+
+      <h3 class="tag-title">Your favourites</h3></b>
+      <br>
+
+        <!--Card 1-->
+        <div class="card">
+          <div class="card-head">
+            <img src="../scotland-experiences/img/blairCastle.jpg" alt="Picture of Blair Castle">
+          </div>
+          <div class="card-body">
+            <h3 class="item-head">Blair Castle</h3>
+            <div class="item-info"></div>
+              <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+              <span class="item-info">Blair Atholl, Pitlochry PH18 5TL</span>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!--Card 2-->
+        <div class="card">
+          <div class="card-head">
+            <img src="../scotland-experiences/img/dunrobinCastle.jpg" alt="Picture of Dunrobin Castle">
+          </div>
+          <div class="card-body">
+            <h3 class="item-head">Dunrobin Castle</h3>
+            <div class="item-info">
+              <img src="../scotland-experiences/img/mapMarker.png" alt="A PNG of a Map Marker">
+              <span class="item-info">Golspie KW10 6SF</span>
+            </div>
+          </div>
+        </div>
+        <br>
+
+      </section>
 
       <!--ACCOUNT PAGE-->
-      <section id="account"></section>
+      <section id="account" style="display: block;">
+
+        <div class="accountWrapper">
+          <b><h1 class="account-form-heading">My Details</h1></b>
+          <form action>
+
+            <!--First name-->
+            <div class="input-container">
+              <label for="fname">First Name</label>
+              <input id="fname" name="fname" placeholder="Nataliia">
+            </div>
+
+            <!--Last name-->
+             <div class="input-container">
+              <label for="lname">Last Name</label>
+              <input id="lname" name="lname" placeholder="Shavala">
+            </div>
+
+            <!--Email-->
+             <div class="input-container">
+              <label for="email">Email</label>
+              <input id="email" name="email" placeholder="nataliashavala3@gmail.com">
+            </div>
+
+            <!--Phone Number-->
+            <div class="input-container">
+              <label for="email">Phone Number</label>
+              <input id="email" name="email" placeholder="+440787655424">
+            </div>
+
+            </div>
+
+            <button class="account-form-submit">Update Details</button>
+
+          </form>
+        </div>
+      
+      </section>
     </main>
 
     <script src="js/script.js"></script>
