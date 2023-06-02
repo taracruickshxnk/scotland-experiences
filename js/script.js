@@ -36,12 +36,13 @@ function myFunction() {
 
   
 
-// continue as guest button
-$("#button-home").click(function(){
+
+$(".button-home").click(function(){
        $("#open").hide();
        $(".topnav").show();
        $("#home").show();
   });
+  
 //login button
   $(".button-login").click(function(){
     $("#open").hide();
