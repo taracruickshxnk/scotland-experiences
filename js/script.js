@@ -37,10 +37,10 @@ function myFunction() {
   
 
 
-  $(".button-home").click(function(){
+$(".button-home").click(function(){
        $("#open").hide();
        $(".topnav").show();
        $("#home").show();
   });
-
+  
 
