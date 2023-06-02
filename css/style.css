@@ -298,7 +298,7 @@ form input {
 .input-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .input-container label {
@@ -410,7 +410,15 @@ option {
   padding: 1rem;
   border-radius: 10px;
   margin: 1rem;
-  
+}
+
+.search-castles-button {
+  width: 100%;
+  border: none;
+  background-color: #7b26c18e;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 10px;
 }
 
 #text-color{

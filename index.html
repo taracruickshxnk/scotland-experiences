@@ -33,50 +33,59 @@
       <!--LOGIN PAGE-->
       <section id="login" style="display: block;">
       
-         <!--Page 1:Open page-->
-         <section id="open" class="page active">
-          <div class="openContainer">
-      <div class="loading-bar">
-             <img src="img/open.page.logo.png" alt="App Logo" class="logo"></div>
+      <!--OPEN PAGE-->
+      <section id="open" class="page active">
+
+        <div class="openContainer">
+        <div class="loading-bar">
+            <img src="img/open.page.logo.png" alt="App Logo" class="logo">
+        </div>
+
         <button class="button-login" onclick="redirectTo('login')">Login</button>
-              <button class="button-home" onclick="redirectTo('home')">Continue as a guest</button>
-          </div>
-        </section>
-      
-        <!-- Page 2: Login -->
-        <section id="login" class="page active">
-          <div class="loginContainer">
-          <h1>Log In</h1>
-            <!-- Add your home page content here -->
-              <form action="">
-                  <input id="email" type="text" placeholder="Email">
-                  <input id="password"type="text" placeholder="Password">
-              </form>
-              <button class="button-home" onclick="redirectTo('home')">Log In</button>
-           <p>Don`t have an account yet?<!--<a href="#register" class=""></a>-->
-              <button class="button-register" onclick="redirectTo('register')">Sign up</button></p>
-                  
-          </div>
-        </section>
-      
-        <!-- Page 3: Register -->
-        <section id="register" class="page ">
-          <div class="registerContainer">
-          <div class="hero" id="registerImage">
-            <h1>Sign up</h1>
-            <!-- Add your about page content here -->
+            <button class="button-home" onclick="redirectTo('home')">Continue as a guest</button>
+        </div>
+
+      </section>
+    
+      <!--LOGIN PAGE-->
+      <section id="login" class="page active">
+        
+        <div class="loginContainer">
+        <h1>Log In</h1>
+          <!-- Add your home page content here -->
             <form action="">
               <input id="email" type="text" placeholder="Email">
               <input id="password"type="text" placeholder="Password">
-          </form>
-          <button class="button-home" onclick="redirectTo('home')">Log In</button>
-          </div>
+            </form>
+
+            <button class="button-home" onclick="redirectTo('home')">Log In</button>
+              <p>Don`t have an account yet?<!--<a href="#register" class=""></a>-->
+            <button class="button-register" onclick="redirectTo('register')">Sign up</button></p>
         </div>
+
       </section>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="js/script.js"></script>
+    
+      <!--REGISTER PAGE-->
+      <section id="register" class="page">
+        
+        <div class="registerContainer">
+        <div class="hero" id="registerImage">
+          <h1>Sign up</h1>
+
+          <!-- Add your about page content here -->
+          <form action="">
+            <input id="email" type="text" placeholder="Email">
+            <input id="password"type="text" placeholder="Password">
+          </form>
+
+        <button class="button-home" onclick="redirectTo('home')">Log In</button>
+        </div>
+      </div>
+    </section>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       
-      </section>
+    </section>
 
       <!--HOME PAGE-->
       <section id="home" style="display: none;">
