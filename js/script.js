@@ -128,4 +128,14 @@ $("#footer-account-link").click(function(){
   $("#account").show()
 });
 
+$("#return-home").click(function(){
+  $("#bookingConfirm").hide()
+  $("#home").show()
+  $("#booking").hide()
+})
 
+$("#search-img").click(function(){
+  $("#search").hide()
+  $("#product").show()
+
+})
