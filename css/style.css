@@ -578,3 +578,23 @@ option {
 .fav-button {
   margin-bottom: 1rem;
 }
+
+/* FOOTER */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  padding: 0.5rem;
+  background-color: white;
+  width: 100%;
+  border-top: solid #7A26C1 2px;
+  max-width: 400px;
+}
+
+nav img {
+  width: 25px;
+}
