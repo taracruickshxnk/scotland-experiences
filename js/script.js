@@ -139,3 +139,8 @@ $("#search-img").click(function(){
   $("#product").show()
 
 })
+
+$("#return-btn").click(function(){
+  $("#booking").hide()
+  $("#product").show()
+})
