@@ -43,4 +43,46 @@ $(".button-home").click(function(){
        $("#home").show();
   });
   
+//login button
+  $(".button-login").click(function(){
+    $("#open").hide();
+    $(".topnav").show();
+    $("#login").show();
+});
+// login page button to take to home page
+$("#button-login-page").click(function(){
+  $("#login").hide();
+  $(".topnav").show();
+  $("#home").show();
+});
+// hamburger menu home button
+$("#home-link").click(function(){
+  $("section").not("#home").hide()
+  $("#home").show()
+});
+// hamburger menu search button
+$("#search-link").click(function(){
+  $("section").not("#search").hide()
+  $("#search").show()
+});
+// hamburger menu favourites button
+$("#favourites-link").click(function(){
+  $("section").not("#favourites").hide()
+  $("#favourites").show()
+});
+// hamburger menu account button
+$("#account-link").click(function(){
+  $("section").not("#account").hide()
+  $("#account").show()
+});
+// login to signup page button
+$("#signup-button").click(function(){
+  $("#login").hide()
+  $("#register").show()
+});
+// view produts page button
+
+  
+
+  
 
