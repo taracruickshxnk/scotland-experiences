@@ -85,6 +85,11 @@ $("#button-viewmore").click(function(){
   $("#home").hide()
   $("#product").show()
 });
+// search castles from home page 
+$(".search-castle-btn").click(function(){
+  $("#home").hide()
+  $("#search").show()
+});
   
 
   
