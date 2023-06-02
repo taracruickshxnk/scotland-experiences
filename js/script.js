@@ -100,6 +100,10 @@ $("#btn-booking").click(function(){
   $("#booking").hide()
   $("#bookingConfirm").show()
 });
+
+$('main').click(function(e){
+  $('#myLinks').hide();
+});
   
 
   
