@@ -90,6 +90,16 @@ $(".search-castle-btn").click(function(){
   $("#home").hide()
   $("#search").show()
 });
+// booking page button from product page
+$(".booking-form-submit").click(function(){
+  $("#product").hide()
+  $("#booking").show()
+});
+// booking confirmation page
+$("#btn-booking").click(function(){
+  $("#booking").hide()
+  $("#bookingConfirm").show()
+});
   
 
   
