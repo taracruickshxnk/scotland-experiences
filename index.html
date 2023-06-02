@@ -18,10 +18,10 @@
         <div class="topnav">
             <a href="#home" class="active"><img src="../scotland-experiences/img/logo.png" alt="Scotland Experinces Logo"></a>
             <div id="myLinks" class="navbg">
-              <a href="#home">Home</a>
-              <a href="#search">Search</a>
-              <a href="#favourites">Favourites</a>
-              <a href="#account">Account</a>
+              <a id="home-link" href="#home">Home</a>
+              <a id="search-link" href="#search">Search</a>
+              <a id="favourites-link" href="#favourites">Favourites</a>
+              <a id="account-link" href="#account">Account</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
@@ -41,7 +41,7 @@
         </div>
 
         <button class="button-login" onclick="redirectTo('login')">Login</button>
-            <button class="button-home" onclick="redirectTo('home')">Continue as a guest</button>
+            <button  id="button-home" class="button-home" onclick="redirectTo('home')">Continue as a guest</button>
         </div>
 
       </section>
@@ -57,9 +57,9 @@
               <input id="password"type="text" placeholder="Password">
             </form>
 
-            <button class="button-home" onclick="redirectTo('home')">Log In</button>
+            <button  id="button-login-page" class="button-home" onclick="redirectTo('home')">Log In</button>
               <p>Don`t have an account yet?<!--<a href="#register" class=""></a>-->
-            <button class="button-register" onclick="redirectTo('register')">Sign up</button></p>
+            <button id="signup-button"class="button-register" onclick="redirectTo('register')">Sign up</button></p>
         </div>
 
       </section>
@@ -77,7 +77,7 @@
             <input id="password"type="text" placeholder="Password">
           </form>
 
-        <button class="button-home" onclick="redirectTo('home')">Log In</button>
+        <button class="button-home" onclick="redirectTo('home')">Sign up</button>
         </div>
       </div>
     </section>
@@ -125,6 +125,11 @@
                 <span class="item-info">Forfar</span>
             </div>
         </div>
+    </div>
+    <div>
+      <div>
+        <button class="button-home">view more products here</button>
+      </div>
     </div>
 
       <!--Explore section-->
