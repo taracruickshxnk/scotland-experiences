@@ -37,7 +37,7 @@ function myFunction() {
   
 
 
-$(".button-home").click(function(){
+$("#button-home").click(function(){
        $("#open").hide();
        $(".topnav").show();
        $("#home").show();
@@ -81,9 +81,24 @@ $("#signup-button").click(function(){
   $("#register").show()
 });
 // view products page button
-$("#signup-button").click(function(){
-  $("#login").hide()
-  $("#register").show()
+$("#button-viewmore").click(function(){
+  $("#home").hide()
+  $("#product").show()
+});
+// search castles from home page 
+$(".search-castle-btn").click(function(){
+  $("#home").hide()
+  $("#search").show()
+});
+// booking page button from product page
+$(".booking-form-submit").click(function(){
+  $("#product").hide()
+  $("#booking").show()
+});
+// booking confirmation page
+$("#btn-booking").click(function(){
+  $("#booking").hide()
+  $("#bookingConfirm").show()
 });
   
 
