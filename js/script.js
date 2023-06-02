@@ -74,11 +74,13 @@ $("#account-link").click(function(){
   $("section").not("#account").hide()
   $("#account").show()
 });
-
+// login to signup page button
 $("#signup-button").click(function(){
   $("#login").hide()
   $("#register").show()
 });
+// view produts page button
+
   
 
   

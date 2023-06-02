@@ -197,7 +197,7 @@ right: -3px;
  box-shadow: 6px 6px 10px #605b5b;
 }
 #button-viewmore{
-  display: block;
+display: block;
  width: 300px;
  height: 40px;
  margin-bottom: 10px;
@@ -209,6 +209,9 @@ right: -3px;
  color: #ffffff;
  border: 2px solid #FFFFFF;
  box-shadow: 6px 6px 10px #605b5b;
+ margin-left: 50px;
+ margin-top: 25px;
+ 
 }
 .button:hover {
  opacity: 0.8;
