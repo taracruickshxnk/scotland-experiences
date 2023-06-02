@@ -159,12 +159,13 @@ right: -3px;
    transform: rotate(405deg);
  }
 }
+
 .logo {
   position: relative;
   z-index: 1;	
-   margin-bottom: 20px;
- width: 150px;
- height: 150px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
 }
 
 .button-login {
@@ -224,20 +225,21 @@ right: -3px;
    text-align: center;
    background-color: #ffffff;
    width: 100%;
-   padding: 2rem;
+   padding: 1rem;
 }
+
 form {
  display: flex;
  flex-direction: column;
  width: 100%;
-   text-align: left;
+  text-align: left;
 }
 
 form input {
- border: 2px solid #890d9f;
+ border: 2px solid #7A26C1;
  padding: 1rem;
  margin: 0.5rem 0 2rem 0;
-   border-radius: 20px;
+border-radius: 10px;
    
 }
 .loginContainer h1 {
@@ -262,6 +264,7 @@ form input {
    width: 400px;
    height: 750px;
 }
+
 .registerContainer {
    display: flex;
    flex-direction: column;
@@ -278,6 +281,7 @@ form input {
    color: #000000;
    font-size: 25px;
 }
+
 form {
  display: flex;
  flex-direction: column;
@@ -286,11 +290,12 @@ form {
 }
 
 form input {
- border: 2px solid #890d9f;
+ border: 2px solid #7A26C1;
  padding: 1rem;
  margin: 0.5rem 0 2rem 0;
-   border-radius: 20px
+  border-radius: 10px
 }
+
 .button-register {
    background-color: #FFFFFF;
    border: none;
