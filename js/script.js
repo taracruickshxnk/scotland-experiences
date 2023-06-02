@@ -1,6 +1,7 @@
 // JavaScript Document
 $(document).ready(function(){
   $(".topnav").hide();
+  $("footer").hide();
 })
 // HEADER SECTION
 
@@ -41,6 +42,7 @@ $("#button-home").click(function(){
        $("#open").hide();
        $(".topnav").show();
        $("#home").show();
+       $("footer").show();
   });
   
 //login button
@@ -54,6 +56,7 @@ $("#button-login-page").click(function(){
   $("#login").hide();
   $(".topnav").show();
   $("#home").show();
+  $("footer").show();
 });
 // hamburger menu home button
 $("#home-link").click(function(){
@@ -100,11 +103,29 @@ $("#btn-booking").click(function(){
   $("#booking").hide()
   $("#bookingConfirm").show()
 });
-
+// hide hamburger menu when click on page 
 $('main').click(function(e){
   $('#myLinks').hide();
 });
-  
+// footer home link
+$("#footer-home-link").click(function(){
+  $("section").not("#home").hide()
+  $("#home").show()
+});
+// footer search link
+$("#footer-search-link").click(function(){
+  $("section").not("#search").hide()
+  $("#search").show()
+});
+// footer favourites link
+$("#footer-favourites-link").click(function(){
+  $("section").not("#favourites").hide()
+  $("#favourites").show()
+});
+// footer account page
+$("#footer-account-link").click(function(){
+  $("section").not("#account").hide()
+  $("#account").show()
+});
 
-  
 
