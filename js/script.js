@@ -79,8 +79,11 @@ $("#signup-button").click(function(){
   $("#login").hide()
   $("#register").show()
 });
-// view produts page button
-
+// view products page button
+$("#signup-button").click(function(){
+  $("#login").hide()
+  $("#register").show()
+});
   
 
   
