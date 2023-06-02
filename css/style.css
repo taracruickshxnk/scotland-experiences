@@ -264,7 +264,11 @@ border-radius: 10px;
    width: 400px;
    height: 750px;
 }
-
+#flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .registerContainer {
    display: flex;
    flex-direction: column;
