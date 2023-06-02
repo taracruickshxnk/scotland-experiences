@@ -37,7 +37,7 @@ function myFunction() {
   
 
 
-$(".button-home").click(function(){
+$("#button-home").click(function(){
        $("#open").hide();
        $(".topnav").show();
        $("#home").show();
@@ -81,9 +81,9 @@ $("#signup-button").click(function(){
   $("#register").show()
 });
 // view products page button
-$("#signup-button").click(function(){
-  $("#login").hide()
-  $("#register").show()
+$("#button-viewmore").click(function(){
+  $("#home").hide()
+  $("#product").show()
 });
   
 
