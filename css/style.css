@@ -602,3 +602,11 @@ nav {
 nav img {
   width: 25px;
 }
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
