@@ -1,5 +1,7 @@
 // JavaScript Document
-
+$(document).ready(function(){
+  $(".topnav").hide();
+})
 // HEADER SECTION
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -35,8 +37,10 @@ function myFunction() {
   
 
 
-  // $(".button-home").click(function(){
-  //      $("#open").hide();
-  //      $(".topnav").show();
-  //      $("#home").show();
-  // });
+$(".button-home").click(function(){
+       $("#open").hide();
+       $(".topnav").show();
+       $("#home").show();
+  });
+  
+
