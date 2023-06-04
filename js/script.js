@@ -94,7 +94,7 @@ $(".search-castle-btn").click(function(){
   $("#search").show()
 });
 // booking page button from product page
-$(".booking-form-submit").click(function(){
+$("#booknow").click(function(){
   $("#product").hide()
   $("#booking").show()
 });
